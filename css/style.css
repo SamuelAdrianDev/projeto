@@ -14,7 +14,7 @@ h1:hover {
     cursor: pointer;
 }
 
-h1 {
+header>h1 {
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     color: white;
     text-shadow: 5px 5px black;
@@ -71,4 +71,51 @@ a {
     padding-right: 20px;
     box-shadow: 5px 5px 1px black;
     transition: transform 200ms linear;
+    margin: 0px;
 }
+
+article {
+    display: inline-block;
+    margin: 116px 722px 497px 91px;
+    background-color: #3A4042;
+    position: absolute;
+    padding: 35px 40px;
+    box-shadow: 5px 5px 2px black;
+
+}
+
+.nome {
+    color: #F25A70;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    size: 40px;
+    font-weight: 400;
+    text-shadow: 4px 4px 2px black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.alinhar {
+    display: flex;
+}
+
+.area {
+    color: #fff;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 19px;
+    text-shadow: 4px 4px 2px black;
+    
+}
+
+.direita {
+    color: #fff;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-shadow: 4px 4px 2px black;
+}
+
+
