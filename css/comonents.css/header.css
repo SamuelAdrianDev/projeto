@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1CA3;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+
+}
+
+header>h1:hover {
+    cursor: pointer;
+}
+
+header>h1 {
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 5px 5px black;
+    background-color: #03033cbe;
+    padding: 10px 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+}
+
+a:hover {
+    color: #F25A70;
+    
+}
+
+a::before {
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 0.4s;
+}

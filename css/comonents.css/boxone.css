@@ -1,0 +1,27 @@
+.caixaone {
+    display: inline-block;
+    margin: 116px 722px 45px 091px;
+    background-color: #3A4042;
+    padding: 35px 44px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.nome {
+    color: #F25A70;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    size: 40px;
+    font-weight: 400;
+    text-shadow: 4px 4px 2px black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.area {
+    color: #fff;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: -20px;
+    text-shadow: 4px 4px 2px black;
+    
+}

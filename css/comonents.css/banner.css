@@ -1,0 +1,17 @@
+.banner {
+    background-image: url(../../imagen/photo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    border-bottom: 10px solid black;
+}
+
+
+.banner .navigation {
+    margin-left: 110px;
+    
+}
+
+.navigation .button {
+    margin-right: 90px;
+}
